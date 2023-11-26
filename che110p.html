@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Water Pollution</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://wallpapercave.com/dwp1x/wp5409956.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            overflow-x: hidden;
+        
+        }
+
+        /* Header styles */
+        .header {
+            position: relative;
+            
+        }
+
+        .header__title {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 5rem;
+            text-align: center;
+            margin-top: 15px;
+            color: white;
+            text-shadow: 5px 5px 5px rgb(10, 44, 39);
+        }
+
+        .navbar {
+            position: relative;
+            top: 0em;
+            width:100%;
+            max-width: 100%;
+            height:150px;
+        
+  
+        }
+
+        .navbar__links {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .navbar__link {
+            font-weight: bold;
+            color: white;
+            text-shadow: black 2px 2px 2px;
+            font-size: 1.5rem;
+            margin-right: 2rem;
+        }
+
+    .main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   /* background-color: rgb(64, 122, 106);*/
+    padding: 0em -2rem;
+    height:300px;
+    transform: translateZ(0);
+    margin-top: 120px;
+    position: relative;
+    top:-1em;
+    width:100%;
+    overflow-x: hidden;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    overflow-x: hidden;
+    width: 440px;
+    padding: 0 0px 5px 5px;
+    margin-right: 3rem;
+
+}
+
+
+        .column-wrapper {
+              display: flex;
+            
+        }
+        
+ 
+ 
+        .column__title {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 2rem;
+            color: white;
+            text-shadow: 5px 5px 5px rgb(4, 5, 5);
+            text-align: center;
+            margin-bottom: 2rem;
+            
+        }
+
+        .column--left {
+            background-image: url('https://www.innovationnewsnetwork.com/wp-content/uploads/2022/10/iStocksolarseven-1193095410.jpg');
+            margin-left: 3rem;
+        }
+
+        .column--center {
+            background-image: url('https://www.eurokidsindia.com/blog/wp-content/uploads/2023/10/water-pollution-causes-effects-solutions-jpg.webp');
+        }
+
+        .column--right {
+            background-image: url('https://e0.pxfuel.com/wallpapers/663/326/desktop-wallpaper-pbs-learningmedia-on-ocean-background-oceans-of-the-world-water-pollution.jpg');
+            margin-right: 0;
+        }
+
+        .column__list {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .column__item {
+            text-align: left;
+            color: white;
+            text-shadow: 8px 8px 8px rgb(8, 9, 9);
+            font-size: 1.5rem;
+            padding:0 25px;
+        }
+        .sdg-wrapper{
+            padding:100px 200px 100px 200px;
+            opacity: 0.9;
+
+        }
+
+        .sdg-box {
+      background-color:rgb(43, 98, 121);
+      border: 5px solid #ccc;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+      color:#ccc;
+    
+    
+    }
+    
+    h1, h2 {
+      text-align: center;
+    }
+    
+    ul{
+        list-style-type:none;
+        font-size: larger;
+    }
+    .video-wrapper{
+        padding:0px 200px 0px 200px;
+    }
+    .video{
+        width:100%;
+    }
+    .survey-wrapper{
+        padding:100px 200px 100px 200px;
+    }
+    .survey-form{
+        border:3px solid white ;
+        padding:20px;
+        color:#ccc;
+        align-items: center;
+        font-size: 20px;
+    }
+    input[type=text]:hover{background-color: grey;}
+    input[type=email]:hover{background-color: grey;}
+    .aboutUs{
+        width:50%;
+        text-justify:auto;
+    }
+    .contactUs{
+    display:flex;
+        justify-content: flex-end;
+        padding-right: 100px;
+        position: absolute;
+top:264em;
+right:5em;
+        
+    }
+    .c1{
+        font-size: larger;
+    }  
+    .social{
+        
+    }    
+    a{
+        text-decoration: none;
+        text-decoration: none;
+        color:#ccc;
+    }
+
+        /* Footer styles */
+        .footer {
+            background-color: rgb(8, 8, 8);
+            width: 100%;
+            color: #fff;
+            padding: 20px;
+            text-align:justify;
+        }
+        
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <h1 class="header__title">Water Pollution</h1>
+            <div class="navbar__links">
+                <a href="che110p.html" class="navbar__link">Home</a>
+                <a href="#aboutUs" class="navbar__link">About Us</a>
+                <a href="#contactUs" class="navbar__link">Contact Us</a>
+                <a href="#survey" class="navbar__link">Survey Form</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="main">
+        <div class="column-wrapper">
+            <div class="column column--left">
+                <h2 class="column__title">Causes</h2>
+                <ul class="column__list">
+                    <li class="column__item">Industrial waste and chemicals</li>
+                    <li class="column__item">Agricultural activities and fertilizers</li>
+                    <li class="column__item">Oil spills and leakage from ships</li>
+                    <li class="column__item">Sewage and wastewater discharge</li>
+                    <li class="column__item">Landfills and improper waste disposal</li>
+                </ul>
+            </div>
+
+            <div class="column column--center">
+                <h2 class="column__title">Effects</h2>
+                <ul class="column__list">
+                    <li class="column__item">Harmful to aquatic life</li>
+                    <li class="column__item">Contaminates drinking water</li>
+                    <li class="column__item">Causes health problems in humans and animals</li>
+                    <li class="column__item">Damages ecosystems and biodiversity</li>
+                    <li class="column__item">Reduces recreational opportunities</li>
+                </ul>
+            </div>
+
+            <div class="column column--right">
+                <h2 class="column__title">Solutions</h2>
+                <ul class="column__list">
+                    <li class="column__item">Reduce waste and recycle</li>
+                    <li class="column__item">Use environmentally-friendly products</li>
+                    <li class="column__item">Properly dispose of hazardous materials</li>
+                    <li class="column__item">Support legislation to protect water quality</li>
+                    <li class="column__item">Get involved in local cleanup efforts</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="sdg-wrapper">
+        <div class="sdg-box">
+            <h1 class="sd1">Sustainable Development Goals for Water Pollution</h1>
+           <p>Controlling water pollution plays a crucial role in achieving several Sustainable Development Goals (SDGs) set by the United Nations. Water is a fundamental resource for life, and its pollution directly impacts various aspects of sustainable development. Here are the contributions of controlling water pollution to the SDGs:
+
+           </p>
+            <ul>
+            <li>
+                <strong>SDG 6: Clean Water and Sanitation</strong>
+                <p class="sdg-description">Target 6.3 aims to improve water quality by reducing pollution and minimizing the release of hazardous chemicals and materials into water bodies.
+                    Controlling water pollution is essential for providing safe and clean drinking water to communities, which is a key component of this goal.
+                    </p>
+            </li>
+            <li>
+                <strong>SDG 14: Life Below Water</strong>
+                <p class="sdg-description">Target 14.1 focuses on preventing and reducing marine pollution, which is closely linked to controlling pollution on land, as many pollutants eventually flow into the oceans through rivers and streams.
+                    Controlling land-based water pollution helps protect marine ecosystems and marine biodiversity.
+                    </p>
+            </li>
+            <li>
+                <strong>SDG 15: Life on Land</strong>
+                <p class="sdg-description">Target 15.1 aims to ensure the conservation and sustainable use of terrestrial and inland freshwater ecosystems, which are heavily impacted by water pollution.
+                    Controlling water pollution contributes to the protection of terrestrial and freshwater biodiversity.
+                    </p>
+            </li>
+            <li>
+                <strong>SDG 3: Good Health and Well-being:</strong>
+                <p class="sdg-description">
+                    Access to clean and safe water reduces the risk of waterborne diseases, contributing to better health and well-being for communities (especially Target 3.3).
+                    Controlling water pollution directly impacts the reduction of water-related illnesses and mortality rates.
+                    
+                    </p>
+            </li>
+            <li>
+                <strong>SDG 12: Responsible Consumption and Production:
+                </strong>
+                <p class="sdg-description">
+                    Sustainable production practices and responsible chemical management (Target 12.4) contribute to reducing the pollution of water bodies with harmful chemicals.
+                    Improved waste management and recycling (Target 12.5) help prevent the release of pollutants into water sources.
+                    </p>
+            </li>
+            <li>
+                <strong>  SDG 9: Industry, Innovation, and Infrastructure:
+                </strong>
+                <p class="sdg-description">      
+                Target 9.4 promotes sustainable and resilient infrastructure development, which includes the construction of water treatment facilities and pollution control measures.
+                Investment in innovative pollution control technologies and sustainable industrial practices aligns with this goal.
+                </p>
+            </li>
+            <li>
+                <strong>SDG 11: Sustainable Cities and Communities:
+                </strong>
+                <p class="sdg-description">
+                    Urban areas are often significant sources of water pollution. Target 11.6 calls for reducing the environmental impact of cities, including air and water quality improvements.
+                    Proper wastewater treatment, green infrastructure, and pollution control measures contribute to creating more sustainable and livable cities.
+                    </p>
+            </li>
+            <li>
+                <strong>Zero Hunger:
+                </strong>
+                <p class="sdg-description">
+                    Target 2.4 emphasizes sustainable agricultural practices, which includes reducing the use of harmful agrochemicals and minimizing agricultural runoff that can contribute to water pollution.
+                    </p>
+            </li>
+            <li>
+                <strong>SDG 13: Climate Action:
+                </strong>
+                <p class="sdg-description">
+                    Pollution control can mitigate the release of greenhouse gases from polluted water bodies and reduce the environmental impact of industrial processes, aligning with efforts to combat climate change (e.g., Target 13.3).
+</p>
+            </li>
+            <li>
+                <strong>SDG 17: Partnerships for the Goals:
+                </strong>
+                <p class="sdg-description">
+                    Collaboration among governments, industries, communities, and civil society is vital for addressing water pollution comprehensively (Target 17.17).
+International cooperation is necessary to share knowledge, technologies, and best practices for pollution control.
+Controlling water pollution is integral to achieving multiple SDGs, as it directly impacts human health, environmental conservation, economic development, and overall sustainability. By prioritizing efforts to reduce and manage water pollution, the global community can make significant strides towards a more sustainable and equitable future.
+</p>
+            </li>
+            </ul>
+        </div>
+    </div>
+    <div class="video-wrapper">
+        <iframe width="930" height="523" src="https://www.youtube.com/embed/IWVR4OdKQ5U" title="a presentation about ( Water pollution )" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="video"></iframe>" 
+        
+    </div>
+    <div class="survey-wrapper">
+        <div class="survey-form" id="survey">
+            <h1>Survey Form on Water Pollution</h1>
+            <form>
+                <hr>
+                <h2>Personal Details</h2>
+                <br><br>
+                <b>Name:</b> <input type="text" placeholder="name"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                <b>Age:</b> <input type="text" placeholder="age"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                <b>Gender:</b> &nbsp; <input type="radio" name="ghj"><b>female</b> &nbsp;<input type="radio" name="ghj"><b>male</b><br><br>
+                <hr>
+                <h2>Awarness Regarding Water Pollution</h2>
+                <b>How would you rate your general awareness of water pollution issues?:</b> <br> 
+                <br><input type="radio" name="abc"> <b>Very Aware</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="radio" name="abc"> <b>Moderately Aware</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input type="radio" name="abc"> <b>Slightly Aware</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="radio" name="abc"> <b>Not At All Aware</b> <br><br>
+                <b>Have you personally witnessed any signs of water pollution in your local area?:</b> <br><br><input type="radio" name="def"> <b>Yes</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="radio" name="def"><b>no</b><br><br>
+                <b>How would you rate the effectiveness of current efforts to prevent water pollution?:</b><br><br> <input type="radio" name="xyz"> <b>Very Effective</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="radio" name="xyz"><b>Moderately Effective</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="radio" name="xyz"> <b>Slightly Effective</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="radio" name="xyz"> <b>Not At All Effective</b><br><br>
+                <hr>
+                <h2>Willingness To Contribute</h2>
+                <b>Would you be willing to participate in local initiatives or community programs aimed at preventing water pollution?:</b> 
+                <br><br><input type="radio" name="cat"><b>Yes</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="radio" name="cat"> <b>No</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="radio" name="cat"><b>Maybe</b><br><br>
+                <hr>
+                <h2>Suggestions Or Feedback</h2>
+                <textarea type="text" id="w3review" name="w3review" rows="8" cols="143"></textarea>
+                <hr>
+                <h2> Your Contact Details</h2>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b>Email:</b> <input type="email" placeholder="Email">
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b>Phone Number:</b> <input type="text" placeholder="Phone Number"><br><br><br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                 
+                <button>Submit</button> &nbsp; &nbsp; &nbsp;<button>Reset</button>
+            
+                
+            </form>
+        </div>
+    </div>
+    <div class="footer" id="footer">
+        <div class="aboutUs" id="aboutUs">
+            <p><h3 >About Us</h3>
+            Welcome to our website dedicated to raising awareness about water pollution and its impact on the environment.
+
+            Our mission is to educate and inform the public about the various sources of water pollution, including industrial waste, agricultural runoff, and improper disposal of household chemicals. We aim to empower individuals to take action to protect our waterways and ensure access to clean and safe drinking water for future generations.
+            
+            Through our website, you will find information on the effects of water pollution on aquatic life, human health, and the overall ecosystem. We also provide resources and tips on how to reduce water pollution in your own community, such as proper waste disposal, water conservation, and supporting local clean water initiatives.
+            
+            We believe that everyone has a role to play in preserving our water resources, and by working together, we can make a positive impact on the health of our rivers, lakes, and oceans. Join us in our mission to protect and preserve our precious water sources for the benefit of all. Thank you for visiting our website and for your commitment to clean water for all.</p>
+        </div>
+        <div class="contactUs" id="contactUs">
+        <p class="c1">Contact us at <br>
+            <br><a href="mailto:LPUstudent@gmail.com">LPUstudent@gmail.com</a></p><br>
+        <br>
+        <p>Follow us on social media:</p><br>
+        <div class="social">
+            <a href="https://twitter.com/N0pollutionN0"><p><img src="https://th.bing.com/th/id/OIP.UVO9J85AbiWAC1L5VuiXtAHaEK?pid=ImgDet&rs=1" height="50" width="70" >&nbsp;&nbsp;Twitter</p></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://www.facebook.com/p/Water-Pollution-Awareness-100064266995586/"><p><img src="data:image/jpeg;base64,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" height="50" width="50">&nbsp;&nbsp;Facebook</p></a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://www.instagram.com/emmawatson/?hl=en"><p><img src="https://i.pinimg.com/736x/21/d6/7f/21d67f1d6b3be5bb2e39395311c77fc6.jpg" height="50" width="50">&nbsp;Instagram</p></a>
+        
+        </div>
+        </div>
+    </div>
+</body>
+</html>
